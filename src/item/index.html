@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Item</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Combo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<header class="header">
+			<img
+				class="header__logo"
+				src="./../../public/images/image 10.svg"
+				alt="Logo"
+			/>
+			<nav class="header__nav">
+				<a class="header__nav-item">Shop</a>
+				<a class="header__nav-item">Science</a>
+				<a class="header__nav-item">Press</a>
+				<a class="header__nav-item">Blogs</a>
+				<a class="header__nav-item">Tutorial</a>
+			</nav>
+			<div class="header__icons">
+				<img
+					class="header__icon"
+					src="../../public/images/Vector.svg"
+					alt="Icon 1"
+				/>
+				<img
+					class="header__icon"
+					src="../../public/images/gg_menu-left-alt.svg"
+					alt="Menu Icon"
+				/>
+				<img
+					class="header__icon"
+					src="../../public/images/bi_bag.svg"
+					alt="Bag Icon"
+				/>
+			</div>
+		</header>
+
+		<main class="product">
+			<img src="../../public/images/image 3.png" alt="Product Image" />
+			<div class="product__details">
+				<div class="product__breadcrumb">
+					<img src="./../../public/images/Group.svg" />
+					<span>ALL PRODUCTS / HAIRCARE / RESTORATIVE HAIR MASK</span>
+				</div>
+				<h2>RESTORATIVE HAIR MASK</h2>
+				<p>nourishment in a bottle</p>
+				<hr />
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor
+					commodo ullamcorper a lacus vestibulum. Luctus accumsan tortor posuere
+					ac ut.
+				</p>
+
+				<div class="product__features">
+					<div class="product__features-row">
+						<div class="product__features-item">
+							<img
+								src="./../../public/images/Group 193.svg"
+								alt="Organic Icon"
+							/>
+							<span>100% ORGANIC</span>
+						</div>
+						<div class="product__features-item">
+							<img
+								src="./../../public/images/Group 193.svg"
+								alt="Organic Icon"
+							/>
+							<span>100% ORGANIC</span>
+						</div>
+					</div>
+					<div class="product__features-row">
+						<div class="product__features-item">
+							<img
+								src="./../../public/images/Group 193.svg"
+								alt="Organic Icon"
+							/>
+							<span>100% ORGANIC</span>
+						</div>
+						<div class="product__features-item">
+							<img
+								src="./../../public/images/Group 193.svg"
+								alt="Organic Icon"
+							/>
+							<span>100% ORGANIC</span>
+						</div>
+					</div>
+				</div>
+				<hr />
+
+				<div class="product__purchase-options">
+					<label class="product__purchase-option">
+						<input type="radio" name="option" value="first" checked />
+						<span>Buy Once | $38</span>
+					</label>
+					<label class="product__purchase-option">
+						<input type="radio" name="option" value="second" />
+						<span>Subscribe (SAVE 20%) | $30</span>
+					</label>
+				</div>
+
+				<div class="product__cart">
+					<div class="product__quantity">
+						<button
+							class="product__quantity-btn product__quantity-btn--decrement"
+						>
+							–
+						</button>
+						<input
+							type="number"
+							min="1"
+							value="1"
+							class="product__quantity-field"
+						/>
+						<button
+							class="product__quantity-btn product__quantity-btn--increment"
+						>
+							+
+						</button>
+					</div>
+					<button class="product__add-to-cart">ADD TO CART</button>
+				</div>
+			</div>
+		</main>
+
+		<div class="accordion">
+			<div class="accordion__item accordion__item--active">
+				<button class="accordion__header">
+					<span>Ingredients</span>
+					<span class="accordion__toggle">–</span>
+				</button>
+				<div class="accordion__content">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor
+						commodo ullamcorper a lacus vestibulum. Luctus accumsan tortor
+						posuere ac ut.
+					</p>
+				</div>
+			</div>
+
+			<div class="accordion__item">
+				<button class="accordion__header">
+					<span>Ingredients</span>
+					<span class="accordion__toggle">+</span>
+				</button>
+				<div class="accordion__content">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor
+						commodo ullamcorper a lacus vestibulum. Luctus accumsan tortor
+						posuere ac ut.
+					</p>
+				</div>
+			</div>
+
+			<div class="accordion__item">
+				<button class="accordion__header">
+					<span>Ingredients</span>
+					<span class="accordion__toggle">+</span>
+				</button>
+				<div class="accordion__content">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor
+						commodo ullamcorper a lacus vestibulum. Luctus accumsan tortor
+						posuere ac ut.
+					</p>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
